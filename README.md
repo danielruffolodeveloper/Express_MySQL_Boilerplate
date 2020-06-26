@@ -15,7 +15,23 @@ The refrence "CRUD" is short for:
 
 This repo is not intended for production deployment straight off the clone but more so a learning resource. I intend to develop it and provide enough functionality to eventually make it a GOTO resource for deploying a architecture like this and explore data replication, pipelines and perhaps even Kubernetes!
 
+---
 
+## API Endpoints
+
+Blow are the methods avaliable to interact with the database through the REST API.
+URL Example: localhost:3000/URL
+
+| Methods  | Url | Action  |
+| :---: | :---: | :---: |
+| GET  | /items  | get all Items  |
+| GET  | /items/ :id  | get Item by id  |
+| POST  | /items  | add new Item  |
+| PUT  | /items/ :id  | update Item with id  |
+| DELETE  | /items/ :id  | remove item with id  |
+| DELETE  | /items  | remove all items  |
+
+---
 
 ## Project setup with Docker Locally
 ```
@@ -28,6 +44,8 @@ The project is now running using Docker. You can see the active containers by ru
 - MySQL: localhost:3306
 
 You can use a tool such as [MySQL WorkBench] to view the database in a GUI. 
+
+---
 
 ## Resources
 + [Docker]: Software containerization platform
