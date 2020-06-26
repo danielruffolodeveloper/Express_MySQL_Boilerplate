@@ -27,6 +27,22 @@ The project is now running using Docker. You can see the active containers by ru
 - Node.js: localhost:3000
 - MySQL: localhost:3306
 
-You can use a tool such as MySQL Workbench to view the database in a GUI.https://www.mysql.com/products/workbench/
+You can use a tool such as [MySQL WorkBench] to view the database in a GUI. 
 
+## Resources
++ [Docker]: Software containerization platform
++ [node.js]: Server enviroment.
++ [MySQL]: Relational database system.
++ [docker-build]: Automated build of *Docker* images.
++ [docker-compose]: Automated configuration and run of multi-container *Docker* applications.
+
+[Microservices architecture]: http://microservices.io/patterns/microservices.html
+[node image]: https://hub.docker.com/_/node/
+[mongo image]: https://hub.docker.com/_/mongo/
+[node.js]: http://nodejs.org
+[Docker]: https://docs.docker.com/
+[docker-compose]:https://docs.docker.com/compose/compose-file/
+[docker-build]:https://docs.docker.com/engine/reference/builder/
+[MySQL]:https://www.mysql.com/
+[MySQL WorkBench]:https://www.mysql.com/products/workbench/
 
