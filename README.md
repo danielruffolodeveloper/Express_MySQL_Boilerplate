@@ -4,6 +4,9 @@ In this repository, I also demonstrate how to setup a docker environment for run
 
 The Diagrm below gives you a general idea of what the project looks like and how it accepts HTTP requests and Responses in order to preform CRUD functionality on our MySQL instance. 
 
+![Screenshot](resources/img/1.png)
+
+
 The refrence "CRUD" is short for:
 - CREATE
 - READ 
@@ -12,7 +15,6 @@ The refrence "CRUD" is short for:
 
 This repo is not intended for production deployment straight off the clone but more so a learning resource. I intend to develop it and provide enough functionality to eventually make it a GOTO resource for deploying a architecture like this and explore data replication, pipelines and perhaps even Kubernetes!
 
-![Screenshot](resources/img/1.png)
 
 
 ## Project setup
