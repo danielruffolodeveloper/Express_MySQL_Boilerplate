@@ -1,4 +1,4 @@
-# Node.js MySQL Boilerplate
+# Express.js MySQL Boilerplate
 This repository demonstrates how so spin up a Express/Node.js API and connect it to a MySQL database.
 This repository also demonstrate how to setup a docker environment for running the project and build a docker-compose file for spinning up both containers of the project at once using a single docker-compose command. 
 
